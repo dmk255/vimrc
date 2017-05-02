@@ -1,3 +1,6 @@
+"add tabs
+set listchars=tab:▸\ ,trail:●
+set list
 
 set number
 
@@ -6,6 +9,8 @@ try
     colorscheme solarized
 catch
 endtry
+
+set foldlevelstart=20
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugin Settings
